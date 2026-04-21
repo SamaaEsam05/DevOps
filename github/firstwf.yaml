@@ -1,0 +1,9 @@
+name: Helloworkflow
+
+on: [push]
+
+jobs:
+ Hello:
+  runs-on: ubunto-latest
+  steps:
+    - run: echo "Hello Workflow"
