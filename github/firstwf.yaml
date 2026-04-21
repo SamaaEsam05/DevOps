@@ -6,4 +6,7 @@ jobs:
  Hello:
   runs-on: ubunto-latest
   steps:
-    - run: echo "Hello Workflow"
+    - name: ShowMessage 
+      run: echo "Hello Workflow"
+    - name: ListDir
+      run: ls -alh
